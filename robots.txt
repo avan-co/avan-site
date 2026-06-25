@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://avan-co.ir/sitemap.xml

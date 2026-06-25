@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Redirect removed pages
+Redirect 301 /projects.html /index.html
+Redirect 301 /blog.html /index.html
+
+# Optional: normalize EN path
+RewriteRule ^en/?$ /EN/ [R=301,L,NC]
